@@ -58,7 +58,7 @@ public class Main {
 	{
 		if (argv.length != 1)
 		{
-			System.err.printf("Wrong number of arguments. Expected 1 got %d.\n", argv.length);
+			System.out.printf("Wrong number of arguments. Expected 1 got %d.\n", argv.length);
 			System.exit(1);
 		}
 
@@ -90,11 +90,11 @@ public class Main {
 			OutfileWriter.close();
 		} catch (BadInput | UnhandledWeather | IOException exception) {
 			if (exception instanceof FileNotFoundException)
-				System.err.println("Error: Cannot open file " + exception.getMessage());
+				System.out.println("Error: Cannot open file " + exception.getMessage());
 			else if (exception instanceof IOException)
-				System.err.println("Erroro: Cannot write/read from file " + exception.getMessage());
+				System.out.println("Erroro: Cannot write/read from file " + exception.getMessage());
 			else
-				System.err.println(exception.getMessage());
+				System.out.println(exception.getMessage());
 			System.exit(1);
 		}
 	}
