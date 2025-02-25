@@ -1,9 +1,9 @@
-package Simulator.Flyable;
+package edu.ft.simulator.flyable;
 
 import java.io.IOException;
 
-import Simulator.Exception.UnhandledWeather;
-import Simulator.Tower.WeatherTower;
+import edu.ft.simulator.exception.UnhandledWeather;
+import edu.ft.simulator.tower.WeatherTower;
 
 public abstract class Flyable {
 	protected WeatherTower weatherTower;

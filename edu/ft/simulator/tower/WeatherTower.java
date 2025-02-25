@@ -1,10 +1,10 @@
-package Simulator.Tower;
+package edu.ft.simulator.tower;
 
 import java.io.IOException;
 
-import Simulator.Exception.UnhandledWeather;
-import Simulator.util.Coordinates;
-import Simulator.util.WeatherProvider;
+import edu.ft.simulator.exception.UnhandledWeather;
+import edu.ft.simulator.util.Coordinates;
+import edu.ft.simulator.util.WeatherProvider;
 
 public class WeatherTower extends Tower {
 	public String	getWeather(Coordinates p_coordinates)

@@ -1,4 +1,4 @@
-package Simulator.util;
+package edu.ft.simulator.util;
 
 import java.io.File;
 import java.io.FileWriter;

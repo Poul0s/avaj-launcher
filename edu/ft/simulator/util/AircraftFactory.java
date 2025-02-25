@@ -1,7 +1,7 @@
-package Simulator.util;
+package edu.ft.simulator.util;
 
-import Simulator.Flyable.Flyable;
-import Simulator.Flyable.Aircraft.*;
+import edu.ft.simulator.flyable.Flyable;
+import edu.ft.simulator.flyable.Aircraft.*;
 
 public final class AircraftFactory {
 	private int	nextId = 0;

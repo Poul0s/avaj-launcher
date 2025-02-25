@@ -1,10 +1,10 @@
-package Simulator.Flyable.Aircraft;
+package edu.ft.simulator.flyable.Aircraft;
 
 import java.io.IOException;
 
-import Simulator.Exception.UnhandledWeather;
-import Simulator.util.Coordinates;
-import Simulator.util.OutfileWriter;
+import edu.ft.simulator.exception.UnhandledWeather;
+import edu.ft.simulator.util.Coordinates;
+import edu.ft.simulator.util.OutfileWriter;
 
 public class JetPlane extends Aircraft {
 	public JetPlane(long p_id, String p_name, Coordinates p_coordinates)

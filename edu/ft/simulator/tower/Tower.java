@@ -1,13 +1,14 @@
-package Simulator.Tower;
+package edu.ft.simulator.tower;
 
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
-import java.io.IOException;
 
-import Simulator.Exception.UnhandledWeather;
-import Simulator.Flyable.Flyable;
-import Simulator.util.OutfileWriter;
+import edu.ft.simulator.exception.UnhandledWeather;
+import edu.ft.simulator.flyable.Flyable;
+import edu.ft.simulator.util.OutfileWriter;
+
+import java.io.IOException;
 
 public class Tower {
 	private List<Flyable>	observers = new LinkedList<>();

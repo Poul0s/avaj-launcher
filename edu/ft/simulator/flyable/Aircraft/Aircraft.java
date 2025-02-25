@@ -1,11 +1,11 @@
-package Simulator.Flyable.Aircraft;
+package edu.ft.simulator.flyable.Aircraft;
 
 import java.io.IOException;
 
-import Simulator.Exception.UnhandledWeather;
-import Simulator.Exception.UnimplementedMethod;
-import Simulator.Flyable.Flyable;
-import Simulator.util.Coordinates;
+import edu.ft.simulator.exception.UnhandledWeather;
+import edu.ft.simulator.exception.UnimplementedMethod;
+import edu.ft.simulator.flyable.Flyable;
+import edu.ft.simulator.util.Coordinates;
 
 public class Aircraft extends Flyable {
 

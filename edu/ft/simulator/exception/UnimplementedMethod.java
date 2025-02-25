@@ -1,4 +1,4 @@
-package Simulator.Exception;
+package edu.ft.simulator.exception;
 
 public class UnimplementedMethod extends RuntimeException {
 	public UnimplementedMethod(String method)

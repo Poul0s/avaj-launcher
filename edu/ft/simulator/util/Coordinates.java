@@ -1,4 +1,4 @@
-package Simulator.util;
+package edu.ft.simulator.util;
 
 public class Coordinates {
 	private int	longitude;

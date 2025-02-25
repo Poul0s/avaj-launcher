@@ -1,4 +1,4 @@
-package Simulator.util;
+package edu.ft.simulator.util;
 
 public final class WeatherProvider {
 	private String[]				weather;

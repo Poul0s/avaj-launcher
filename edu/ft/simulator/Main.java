@@ -1,16 +1,16 @@
-package Simulator;
+package edu.ft.simulator;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;
 
-import Simulator.Exception.UnhandledWeather;
-import Simulator.Exception.BadInput;
-import Simulator.Flyable.Flyable;
-import Simulator.Tower.WeatherTower;
-import Simulator.util.AircraftFactory;
-import Simulator.util.Coordinates;
-import Simulator.util.OutfileWriter;
+import edu.ft.simulator.exception.BadInput;
+import edu.ft.simulator.exception.UnhandledWeather;
+import edu.ft.simulator.flyable.Flyable;
+import edu.ft.simulator.tower.WeatherTower;
+import edu.ft.simulator.util.AircraftFactory;
+import edu.ft.simulator.util.Coordinates;
+import edu.ft.simulator.util.OutfileWriter;
 
 public class Main {
 
