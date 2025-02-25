@@ -47,10 +47,10 @@ public class Main {
 		try {
 			res = Integer.valueOf(line);
 		} catch(NumberFormatException exception) {
-			throw new BadInput(line, exception.getMessage());
+			throw new BadInput(line, "Number of simulation must be a positive integer");
 		}
 		if (res <= 0)
-			throw new BadInput(line, "Number of simulation must be a positive number");
+			throw new BadInput(line, "Number of simulation must be a positive integer");
 		return res;
 	}
 
@@ -82,6 +82,8 @@ public class Main {
 					flyable.registerTower(tower);
 				}
 			}
+			if (numberSimulation == null)
+				throw new BadInput("-1", "No simulation turn number found");
 			for (int i = 0; i < numberSimulation; i++)
 			{
 				tower.changeWeather();
