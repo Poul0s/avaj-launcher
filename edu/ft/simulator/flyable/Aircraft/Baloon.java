@@ -24,7 +24,7 @@ public class Baloon extends Aircraft {
 		switch (weather) {
 			case "SUN":
 				this.coordinates.add(new Coordinates(2, 0, 4));
-				OutfileWriter.println(this.getIdentification() + " :  Let's enjoy the good weather and take some pics.");
+				OutfileWriter.println(this.getIdentification() + " : Let's enjoy the good weather and take some pics.");
 				break;
 			case "RAIN":
 				this.coordinates.add(new Coordinates(0, 0, -5));
@@ -32,11 +32,11 @@ public class Baloon extends Aircraft {
 				break;
 			case "FOG":
 				this.coordinates.add(new Coordinates(0, 0, -3));
-				OutfileWriter.println(this.getIdentification() + " : Fog."); // todo another
+				OutfileWriter.println(this.getIdentification() + " : I don't know where we are going.");
 				break;
 			case "SNOW":
 				this.coordinates.add(new Coordinates(0, 0, -15));
-				OutfileWriter.println(this.getIdentification() + " :  It's snowing. We're gonna crash.");
+				OutfileWriter.println(this.getIdentification() + " : It's snowing. We're gonna crash.");
 				break;
 		
 			default:

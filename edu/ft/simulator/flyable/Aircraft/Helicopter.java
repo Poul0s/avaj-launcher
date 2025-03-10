@@ -28,11 +28,11 @@ public class Helicopter extends Aircraft {
 				break;
 			case "RAIN":
 				this.coordinates.add(new Coordinates(5, 0, 0));
-				OutfileWriter.println(this.getIdentification() + " : rain."); // todo another
+				OutfileWriter.println(this.getIdentification() + " : Thnaks god we are inside.");
 				break;
 			case "FOG":
 				this.coordinates.add(new Coordinates(1, 0, 0));
-				OutfileWriter.println(this.getIdentification() + " : fog."); // todo another
+				OutfileWriter.println(this.getIdentification() + " : I hope we are going to the good drop zone.");
 				break;
 			case "SNOW":
 				this.coordinates.add(new Coordinates(0, 0, -12));

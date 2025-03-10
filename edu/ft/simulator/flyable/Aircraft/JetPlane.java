@@ -24,7 +24,7 @@ public class JetPlane extends Aircraft {
 		switch (weather) {
 			case "SUN":
 				this.coordinates.add(new Coordinates(0, 10, 2));
-				OutfileWriter.println(this.getIdentification() + " : sun."); // todo another
+				OutfileWriter.println(this.getIdentification() + " : What a beautiful sky.");
 				break;
 			case "RAIN":
 				this.coordinates.add(new Coordinates(0, 5, 0));
@@ -32,7 +32,7 @@ public class JetPlane extends Aircraft {
 				break;
 			case "FOG":
 				this.coordinates.add(new Coordinates(0, 1, 0));
-				OutfileWriter.println(this.getIdentification() + " : fog."); // todo another
+				OutfileWriter.println(this.getIdentification() + " : Oh no, we don't see anything.");
 				break;
 			case "SNOW":
 				this.coordinates.add(new Coordinates(0, 0, -7)); 
