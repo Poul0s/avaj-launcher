@@ -82,8 +82,10 @@ public class Main {
 					flyable.registerTower(tower);
 				}
 			}
-			if (numberSimulation == null)
+			if (numberSimulation == null) {
+				scanner.close();
 				throw new BadInput("-1", "No simulation turn number found");
+			}
 			for (int i = 0; i < numberSimulation; i++)
 			{
 				tower.changeWeather();
