@@ -2,8 +2,8 @@ package edu.ft.simulator.flyable.Aircraft;
 
 import java.io.IOException;
 
+import edu.ft.simulator.Coordinates;
 import edu.ft.simulator.exception.UnhandledWeather;
-import edu.ft.simulator.util.Coordinates;
 import edu.ft.simulator.util.OutfileWriter;
 
 public class Helicopter extends Aircraft {
@@ -23,19 +23,19 @@ public class Helicopter extends Aircraft {
 
 		switch (weather) {
 			case "SUN":
-				this.coordinates.add(new Coordinates(10, 0, 2));
+				this.coordinates.add(10, 0, 2);
 				OutfileWriter.println(this.getIdentification() + " : This is hot.");
 				break;
 			case "RAIN":
-				this.coordinates.add(new Coordinates(5, 0, 0));
+				this.coordinates.add(5, 0, 0);
 				OutfileWriter.println(this.getIdentification() + " : Thnaks god we are inside.");
 				break;
 			case "FOG":
-				this.coordinates.add(new Coordinates(1, 0, 0));
+				this.coordinates.add(1, 0, 0);
 				OutfileWriter.println(this.getIdentification() + " : I hope we are going to the good drop zone.");
 				break;
 			case "SNOW":
-				this.coordinates.add(new Coordinates(0, 0, -12));
+				this.coordinates.add(0, 0, -12);
 				OutfileWriter.println(this.getIdentification() + " : My rotor is going to freeze!");
 				break;
 		

@@ -9,7 +9,6 @@ import edu.ft.simulator.exception.UnhandledWeather;
 import edu.ft.simulator.flyable.Flyable;
 import edu.ft.simulator.tower.WeatherTower;
 import edu.ft.simulator.util.AircraftFactory;
-import edu.ft.simulator.util.Coordinates;
 import edu.ft.simulator.util.OutfileWriter;
 
 public class Main {

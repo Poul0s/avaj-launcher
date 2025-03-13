@@ -1,4 +1,4 @@
-package edu.ft.simulator.util;
+package edu.ft.simulator;
 
 public class Coordinates {
 	private int	longitude;
@@ -6,7 +6,7 @@ public class Coordinates {
 	private int	height;
 
 
-	public Coordinates(int p_longitude, int p_latitude, int p_height)
+	Coordinates(int p_longitude, int p_latitude, int p_height)
 	{
 		longitude = p_longitude;
 		latitude = p_latitude;
@@ -43,10 +43,10 @@ public class Coordinates {
 		height = p_height;
 	}
 
-	public void	add(Coordinates p_coordinates)
+	public void	add(int p_longitude, int p_latitude, int p_height)
 	{
-		this.longitude += p_coordinates.longitude;
-		this.latitude += p_coordinates.latitude;
-		this.height += p_coordinates.height;
+		this.longitude += p_longitude;
+		this.latitude += p_latitude;
+		this.height += p_height;
 	}
 }

@@ -1,5 +1,6 @@
 package edu.ft.simulator.util;
 
+import edu.ft.simulator.Coordinates;
 import edu.ft.simulator.flyable.Flyable;
 import edu.ft.simulator.flyable.Aircraft.*;
 

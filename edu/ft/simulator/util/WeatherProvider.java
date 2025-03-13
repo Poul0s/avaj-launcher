@@ -1,5 +1,7 @@
 package edu.ft.simulator.util;
 
+import edu.ft.simulator.Coordinates;
+
 public final class WeatherProvider {
 	private String[]				weather;
 	private static WeatherProvider	instance;
